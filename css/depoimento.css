@@ -1,0 +1,32 @@
+.depoimento {
+    background: var(--background-claro);
+    margin: 8em 4em;
+    text-align: center;
+    padding: 3em;
+}
+
+.depoimento__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.depoimento__texto {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cinza-mais-escuro);
+    margin: 1em 0;
+}
+
+.depoimento__nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-mais-escuro);
+    margin: 0.6em 0 0.3em;
+}
+
+.depoimento__cargo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}

@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 5em;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cinza-escuro);
+}
+
+.cabecalho__logo-imagem {
+    width: 1.5vw;
+}
+
+.cabecalho__logo-titulo {
+    font-size: 18px;
+    padding-left: 0.4em;
+}
+
+.cabecalho__paginas-lista {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.cabecalho__paginas-item {
+    margin: 0.5em 2em 0;
+}
+
+.cabecalho__paginas-link {
+    color: var(--cinza-claro);
+    text-decoration: none;
+}
+
+.cabecalho__paginas-link:hover,
+.cabecalho__botoes-entrar:hover {
+        color: var(--cinza-mais-escuro);
+}
+
+.cabecalho__paginas-link:active,
+.cabecalho__botoes-entrar:active {
+        color: var(--vinho);
+}
+
+.cabecalho__botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho__botoes-entrar {
+    color: var(--cinza-claro);
+    text-decoration: none;
+}
+
+.cabecalho__botoes-cadastrar {
+    background-color: var(--vinho);
+    border: none;
+    color: var(--branco);
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    margin-left: 2em;
+}
+
+.cabecalho__botoes-cadastrar:hover {
+    background-color: #be4444;
+}

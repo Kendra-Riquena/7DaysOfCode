@@ -1,0 +1,34 @@
+@import url(css/cabecalho.css);
+@import url(css/sobre.css);
+@import url(css/metricas.css);
+@import url(css/talentos.css);
+@import url(css/vagas.css);
+@import url(css/depoimento.css);
+@import url(css/rodape.css);
+
+:root {
+    --fonte-principal: 'inter';
+    --preto: #000000;
+    --cinza-mais-escuro: #101828;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --branco: #FFFFFF;
+    --vinho: #8E2424;
+    --background: rgba(142, 36, 36, 0.05);
+    --cinza-mais-claro: #EAECF0;
+    --background-claro: rgba(196, 25, 25, 0.03);
+    --background-rodape: #F9FAFB;
+    --copyright: #98A2B3;
+    --borda: #D0D5DD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
